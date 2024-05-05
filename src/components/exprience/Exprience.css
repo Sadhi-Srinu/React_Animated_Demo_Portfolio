@@ -1,0 +1,17 @@
+.ex{
+    width: 900px;
+}
+
+.ex-items{
+    background-color: var(--bg-color);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid lime;
+    box-shadow: var(--box-shadow);
+   
+}

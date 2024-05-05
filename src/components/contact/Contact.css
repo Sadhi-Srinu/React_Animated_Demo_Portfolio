@@ -1,0 +1,27 @@
+.contact-icon{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: black;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid lime;
+}
+
+.contact-icon .items .icons{
+    font-size: 2rem;
+}
+
+.contact-icon .items:hover{
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
